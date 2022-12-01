@@ -40,13 +40,12 @@ const InfoSection = ({
         </div>
         <ul
           className={cn(
-            "bg-green-700 flex flex-wrap list-inside gap-x-8 z-20",
+            "bg-green-700 flex flex-wrap gap-x-8 z-20",
             listClassName,
             {
               "-ml-[var(--app-space)] px-[var(--app-space)]":
                 listPosition === "left",
-              "-mr-[var(--app-space)] px-[var(--app-space)]":
-                listPosition === "right",
+              "-mr-[var(--app-space)] px-[4.9375rem]": listPosition === "right",
               "px-[4.9375rem]": listPosition === "center",
             }
           )}
