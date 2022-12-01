@@ -33,7 +33,7 @@ const InfoSection = ({
           className={cn("absolute -z-10", patternNClassName)}
         />
       )}
-      <div className="app-container flex flex-col gap-8">
+      <div className="app-container flex flex-col gap-16">
         <div className="flex gap-8 items-end">
           <span className="text-7xl leading-[0.6]">&#9642;</span>
           <h2 className="uppercase tp-display3">{title}</h2>
