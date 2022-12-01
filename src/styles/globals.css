@@ -1,0 +1,67 @@
+@import url("../../public/fonts/Crimson_Text/style.css");
+@import url("../../public/fonts/Inter/style.css");
+@import url("../../public/fonts/icomoon/style.css");
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-x: hidden;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-body  h-screen overflow-x-hidden;
+  }
+  body {
+    @apply bg-green-900 capitalize text-text-1 flex min-h-screen
+      overflow-x-hidden;
+  }
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer utilities {
+  .app-container {
+    @apply w-full max-w-[100rem] mx-auto relative px-28;
+  }
+  .tp-display1 {
+    @apply text-9xl font-semibold;
+  }
+  .tp-display2 {
+    @apply text-8xl font-normal;
+  }
+  .tp-display3 {
+    @apply text-7xl font-semibold;
+  }
+  .tp-display4 {
+    @apply text-6xl font-semibold;
+  }
+  .tp-h1 {
+    @apply text-4xl font-semibold;
+  }
+  .tp-h2 {
+    @apply text-3xl font-bold;
+  }
+  .tp-h3 {
+    @apply text-2xl font-semibold;
+  }
+  .tp-h4 {
+    @apply text-xl font-normal;
+  }
+  .tp-h5 {
+    @apply text-lg font-semibold;
+  }
+  .tp-h7 {
+    @apply text-base font-semibold;
+  }
+  .tp-h8 {
+    @apply text-sm font-medium;
+  }
+}
