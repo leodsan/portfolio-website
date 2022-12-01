@@ -13,18 +13,6 @@ const HEADER_CONST = {
       title: "about",
     },
   ],
-  socialMedias: [
-    {
-      id: 0,
-      icon: "github",
-      link: "/",
-    },
-    {
-      id: 1,
-      icon: "linkedin",
-      link: "/",
-    },
-  ],
 };
 
 export { HEADER_CONST };
