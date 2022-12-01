@@ -118,6 +118,14 @@ const HOME_CONST = {
       subtitle: "Senior Software Engineer - Chicago, IL",
     },
   ],
+  education: [
+    {
+      id: 1,
+      date: "2005 - 2009",
+      title: "Tecnológico de Monterrey",
+      subtitle: "Bachelor’s degree, Computer Science",
+    },
+  ],
 };
 
 export { HOME_CONST };

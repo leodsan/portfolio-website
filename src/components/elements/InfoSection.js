@@ -3,6 +3,8 @@ import cn from "classnames";
 const InfoSection = ({
   title,
   children,
+  className,
+  hasShadow,
   listClassName,
   patternP = null,
   patternN = null,
@@ -11,7 +13,12 @@ const InfoSection = ({
   listPosition = "left",
 }) => {
   return (
-    <section className="relative pt-[17.5rem]">
+    <section
+      className={cn("relative pt-[17.5rem]", className, {
+        "bg-green-900 pb-48 before:content-[''] before:w-full before:bottom-0 before:left-0 before:h-1/2 before:shadow-box before:absolute before:-z-20":
+          hasShadow,
+      })}
+    >
       {patternP && (
         <img
           alt="pattern"
@@ -33,7 +40,7 @@ const InfoSection = ({
         </div>
         <ul
           className={cn(
-            "bg-green-700 flex flex-wrap list-inside gap-x-8",
+            "bg-green-700 flex flex-wrap list-inside gap-x-8 z-20",
             listClassName,
             {
               "-ml-[var(--app-space)] px-[var(--app-space)]":
