@@ -27,6 +27,18 @@
   }
 }
 
+@layer components {
+  .button {
+    @apply flex gap-2 w-max items-center cursor-pointer transition duration-300;
+  }
+  .button-text {
+    @apply tp-h7 capitalize;
+  }
+  .button-icon {
+    @apply text-text-1 text-2xl;
+  }
+}
+
 @layer utilities {
   .app-container {
     @apply w-full max-w-[100rem] mx-auto relative px-28;
