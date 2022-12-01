@@ -95,6 +95,29 @@ const HOME_CONST = {
       title: "CloudFormation",
     },
   ],
+  experience: [
+    {
+      id: 1,
+      link: "/",
+      title: "ALLIANZ",
+      date: "Mar 2022 - Sep 2022",
+      subtitle: "Senior Software Engineer - Contract",
+    },
+    {
+      id: 2,
+      link: "/",
+      title: "ECOLAB",
+      date: "Nov 2019 - May 2021",
+      subtitle: "Senior Software Engineer - Chicago, IL",
+    },
+    {
+      id: 3,
+      link: "/",
+      title: "DONNELLEY FINANCIAL SOLUTIONS",
+      date: "Jan 2018 - Nov 2019",
+      subtitle: "Senior Software Engineer - Chicago, IL",
+    },
+  ],
 };
 
 export { HOME_CONST };

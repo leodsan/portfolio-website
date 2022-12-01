@@ -32,7 +32,7 @@
 
 @layer components {
   .button {
-    @apply flex gap-2 w-max items-center cursor-pointer transition duration-300;
+    @apply flex relative gap-2 w-max items-center cursor-pointer transition duration-300;
   }
   .button-text {
     @apply tp-h7 capitalize;

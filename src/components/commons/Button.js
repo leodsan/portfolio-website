@@ -6,6 +6,7 @@ const Button = ({
   disable,
   loading,
   reverse,
+  children,
   className,
   icon = null,
   title = null,
@@ -40,6 +41,7 @@ const Button = ({
       {icon && (
         <i className={cn("button-icon", `icon-${icon}`, iconClassName)} />
       )}
+      {children}
     </Container>
   );
 };

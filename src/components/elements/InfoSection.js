@@ -33,7 +33,7 @@ const InfoSection = ({
         </div>
         <ul
           className={cn(
-            "py-24 bg-green-700 flex flex-wrap list-inside gap-x-8",
+            "bg-green-700 flex flex-wrap list-inside gap-x-8",
             listClassName,
             {
               "-ml-[var(--app-space)] px-[var(--app-space)]":
