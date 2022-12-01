@@ -1,11 +1,12 @@
 import "../styles/globals.css";
-import { Header } from "../components/elements";
+import { Footer, Header } from "../components/elements";
 
 function App({ Component, pageProps }) {
   return (
     <>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }
