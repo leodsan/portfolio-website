@@ -15,7 +15,7 @@
 
 @layer base {
   :root {
-    @apply [--app-space:theme(spacing.10)];
+    @apply [--app-space:theme(spacing.10)] sm:[--app-space:theme(spacing.5)];
   }
   html {
     @apply font-body  h-screen overflow-x-hidden;
@@ -38,7 +38,7 @@
     @apply tp-h7 capitalize;
   }
   .button-icon {
-    @apply text-text-1 text-2xl;
+    @apply text-text-1 text-2xl sm:text-xl;
   }
 }
 
