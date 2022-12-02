@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <header
       id="header"
-      className="app-container !fixed top-0 z-50 flex items-center justify-center py-4 my-4 sm:py-5 overflow-hidden"
+      className="app-container !fixed left-0 right-0 top-0 z-50 flex items-center justify-center py-4 my-4 sm:py-5 overflow-hidden"
     >
       <nav className="flex items-center gap-x-10 gap-y-2 mr-auto">
         {routes.map(({ id, title, href }) => (
