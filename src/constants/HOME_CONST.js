@@ -17,7 +17,8 @@ const HOME_CONST = {
     ],
     biography:
       "A highly disciplined and autodidactic software engineer with excellent communication skills and many years of industry experience.",
-    title: "leonardo santiago senior software engineer",
+    title: "leonardo santiago",
+    subtitle: "senior software engineer",
     yearsOfExperiance: "+10",
     projecsDone: "130",
   },

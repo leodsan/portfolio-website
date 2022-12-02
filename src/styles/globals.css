@@ -18,7 +18,7 @@
     @apply [--app-space:theme(spacing.10)] sm:[--app-space:theme(spacing.5)];
   }
   html {
-    @apply font-body  h-screen overflow-x-hidden;
+    @apply font-body min-h-screen overflow-x-hidden;
   }
   body {
     @apply bg-green-900 capitalize text-text-1 flex min-h-screen
@@ -35,7 +35,7 @@
     @apply flex relative gap-2 w-max items-center cursor-pointer transition duration-300;
   }
   .button-text {
-    @apply tp-h7 capitalize;
+    @apply tp-h6 capitalize;
   }
   .button-icon {
     @apply text-text-1 text-2xl sm:text-xl;
@@ -58,6 +58,12 @@
   .tp-display4 {
     @apply text-6xl font-semibold;
   }
+  .tp-display5 {
+    @apply text-5xl font-semibold;
+  }
+  .tp-display6 {
+    @apply text-[2.5rem] font-semibold;
+  }
   .tp-h1 {
     @apply text-4xl font-semibold;
   }
@@ -73,10 +79,10 @@
   .tp-h5 {
     @apply text-lg font-semibold;
   }
-  .tp-h7 {
+  .tp-h6 {
     @apply text-base font-semibold;
   }
-  .tp-h8 {
+  .tp-h7 {
     @apply text-sm font-medium;
   }
 }

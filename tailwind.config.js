@@ -9,6 +9,9 @@ module.exports = {
       xl: { max: "1366px" },
       // => @media (max-width: 1366px) { ... }
 
+      "2lg": { max: "1200px" },
+      // => @media (max-width: 1200px) { ... }
+
       lg: { max: "1023px" },
       // => @media (max-width: 1023px) { ... }
 
