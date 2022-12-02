@@ -188,6 +188,29 @@ const HOME_CONST = {
       subtitle: "Bachelor’s degree, Computer Science",
     },
   ],
+  project: [
+    {
+      id: 1,
+      title: "project title 1",
+      text: "Lorem Ipsum is simply dummy text of the printing and typesetting.",
+      href: "/",
+      img: "/media/project.jpg",
+    },
+    {
+      id: 2,
+      title: "project title 2",
+      text: "Lorem Ipsum is simply dummy text of the printing and typesetting.",
+      href: "/",
+      img: "/media/project.jpg",
+    },
+    {
+      id: 3,
+      title: "project title 3",
+      text: "Lorem Ipsum is simply dummy text of the printing and typesetting.",
+      href: "/",
+      img: "/media/project.jpg",
+    },
+  ],
 };
 
 export { HOME_CONST };
