@@ -49,8 +49,9 @@ const InfoSection = ({
             {
               "-ml-[var(--app-space)] px-[var(--app-space)]":
                 listPosition === "left",
-              "-mr-[var(--app-space)] px-[4.9375rem]": listPosition === "right",
-              "px-[4.9375rem]": listPosition === "center",
+              "-mr-[var(--app-space)] px-[4.9375rem] lg:px-12 2md:px-10":
+                listPosition === "right",
+              "px-[4.9375rem] lg:px-12 2md:px-10": listPosition === "center",
             }
           )}
         >
