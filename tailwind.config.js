@@ -2,6 +2,25 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   theme: {
+    screens: {
+      "2xl": { max: "1535px" },
+      // => @media (max-width: 1535px) { ... }
+
+      xl: { max: "1366px" },
+      // => @media (max-width: 1366px) { ... }
+
+      lg: { max: "1023px" },
+      // => @media (max-width: 1023px) { ... }
+
+      md: { max: "767px" },
+      // => @media (max-width: 767px) { ... }
+
+      sm: { max: "639px" },
+      // => @media (max-width: 639px) { ... }
+
+      xs: { max: "480px" },
+      // => @media (max-width: 480px) { ... }
+    },
     colors: ({ colors }) => ({
       inherit: colors.inherit,
       current: colors.current,
@@ -26,7 +45,7 @@ module.exports = {
     },
     extend: {
       fontSize: {
-        "3xl": ["1.625rem", { lineHeight: "1.25rem" }],
+        "3xl": ["1.625rem", { lineHeight: "2rem" }],
         "4xl": ["1.75rem", { lineHeight: "2.25rem" }],
         "7xl": ["5rem", { lineHeight: 1 }],
         "9xl": ["7.5rem", { lineHeight: 1 }],
