@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Button } from "../../commons";
 import { InfoSection } from "../../elements";
 
@@ -6,6 +5,8 @@ const Project = ({ items }) => {
   return (
     <InfoSection
       title="project"
+      patternP="4"
+      patternPClassName="-right-20 top-[70%] z-10"
       listClassName="gap-8 lg:gap-4 2md:flex-wrap 2md:justify-center !bg-transparent !px-0"
       listPosition="center"
     >
