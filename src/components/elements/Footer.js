@@ -41,7 +41,7 @@ const Footer = () => {
             title={email}
             href={`mailto:${email}`}
             titleClassName="tp-h5 xs:tp-h6"
-            className="md:w-full order-3"
+            className="md:w-full md:order-3"
           />
           <SocialMedias />
         </div>
