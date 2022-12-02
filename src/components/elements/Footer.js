@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="app-container flex flex-col items-center justify-center">
         <Link
           href={`mailto:${email}`}
-          className="flex items-center justify-center w-[460px] aspect-square max-w-[65vw] relative before:-z-10 before:rotate-45 before:w-full before:h-full before:bg-green-650 before:absolute before:content-['']"
+          className="flex items-center justify-center hover:before:bg-green-600 before:transition before:duration-300 w-[460px] aspect-square max-w-[65vw] relative before:-z-10 before:rotate-45 before:w-full before:h-full before:bg-green-650 before:absolute before:content-['']"
         >
           <span className="tp-display2 md:text-[14vw] pl-14 md:pl-8 whitespace-pre-line">
             {`CALL 
