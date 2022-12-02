@@ -1,4 +1,3 @@
-import { Button } from "../../commons";
 import { InfoSection } from "../../elements";
 
 function Experience({ items }) {
@@ -15,15 +14,10 @@ function Experience({ items }) {
       {items.map(({ id, title, link, date, subtitle }, index) => (
         <li
           key={id}
-          className="w-full relative [&:not(:last-child)]:mb-14 md:[&:not(:last-child)]:mb-10 [&:not(:last-child)]:before:content-[''] [&:not(:last-child)]:before:w-[90%] [&:not(:last-child)]:before:h-[1px] [&:not(:last-child)]:before:bg-green-500 [&:not(:last-child)]:before:left-1/2 [&:not(:last-child)]:before:-translate-x-1/2 [&:not(:last-child)]:before:bottom-0 [&:not(:last-child)]:before:absolute"
+          className="w-full relative [&:not(:last-child)]:mb-14 md:[&:not(:last-child)]:mb-10 [&:not(:last-child)]:before:content-[''] [&:not(:last-child)]:before:w-[90%] xs:[&:not(:last-child)]:before:w-[100%] [&:not(:last-child)]:before:h-[1px] [&:not(:last-child)]:before:bg-green-500 [&:not(:last-child)]:before:left-1/2 [&:not(:last-child)]:before:-translate-x-1/2 [&:not(:last-child)]:before:bottom-0 [&:not(:last-child)]:before:absolute"
         >
-          <Button
-            target
-            type="a"
-            href={link}
-            className="w-full pb-14 gap-9 md:gap-6 md:pb-10"
-          >
-            <span className="text-9xl lg:text-8xl sm:text-7xl text-text-3">
+          <div className="flex w-full pb-14 gap-9 md:gap-6 md:pb-10 xs:flex-col xs:gap-4">
+            <span className="text-9xl lg:text-8xl xs:text-7xl text-text-3">
               {("0" + (index + 1)).slice(-2)}
             </span>
             <div className="flex items-center justify-between gap-x-6  gap-y-2 flex-grow tp-h4 md:tp-h5 2md:flex-wrap">
@@ -33,7 +27,7 @@ function Experience({ items }) {
               </div>
               <span>{date}</span>
             </div>
-          </Button>
+          </div>
         </li>
       ))}
     </InfoSection>
