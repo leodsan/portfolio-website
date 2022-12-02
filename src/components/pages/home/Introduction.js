@@ -65,7 +65,7 @@ const Introduction = () => {
         src="/media/pattern-2.svg"
         alt="pattern"
       />
-      <div className="app-container overflow-hidden pt-[6.5rem] pb-32 md:pb-20 flex flex-col gap-[7rem] xl:gap-16 lg:gap-6 lg:pt-14 items-center ">
+      <div className="app-container overflow-hidden pt-[12rem] pb-32 md:pb-20 flex flex-col gap-[7rem] xl:gap-16 lg:gap-6 lg:pt-32 items-center ">
         <div
           id="title"
           className="text-center tp-display4 xl:tp-display5 lg:tp-display6 sm:tp-h1 z-20 xs:tp-h3"

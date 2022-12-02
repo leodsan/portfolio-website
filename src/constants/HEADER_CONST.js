@@ -3,6 +3,7 @@ const HEADER_CONST = {
     {
       id: 1,
       title: "contact",
+      href: "mailto:helloleonardosantiago@gmail.com",
     },
   ],
 };
