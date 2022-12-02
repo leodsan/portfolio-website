@@ -4,12 +4,12 @@ const GLOBAL_CONST = {
     {
       id: 0,
       icon: "github",
-      link: "/",
+      link: "https://github.com/leodsan/",
     },
     {
       id: 1,
       icon: "linkedin",
-      link: "/",
+      link: "https://www.linkedin.com/in/leonardodsantiago/",
     },
   ],
 };

@@ -99,24 +99,85 @@ const HOME_CONST = {
   experience: [
     {
       id: 1,
-      link: "/",
       title: "ALLIANZ",
-      date: "Mar 2022 - Sep 2022",
+      date: "Nov 2019 — SEP 2022",
       subtitle: "Senior Software Engineer - Contract",
+      list: [
+        {
+          id: 1,
+          text: `Worked on an in-house email application written in C# and automated
+          through Task Scheduler, which takes in a CSV file, parses based on given
+          parameters, and returns an XLSX that will be used to input records into a SQL
+          table.`,
+        },
+        {
+          id: 2,
+          text: `Worked on various UI/UX elements across a variety of customer-facing
+          global websites: grid configuration, bootstrapping for mobile, and document
+          verbiage`,
+        },
+        {
+          id: 3,
+          text: `Built out various scripts to automate builds with Jenkins and AWS Cloud
+          Formation, as well as accompanying documentation for posterity. Also worked
+          to build out documentation / gather requirements for PCI compliance.`,
+        },
+      ],
     },
     {
       id: 2,
-      link: "/",
-      title: "ECOLAB",
-      date: "Nov 2019 - May 2021",
+      title: "DONNELLEY FINANCIAL SOLUTIONS",
+      date: "Jan 2016 - Nov 2019",
       subtitle: "Senior Software Engineer - Chicago, IL",
+      list: [
+        {
+          id: 1,
+          text: `Lead multiple teams in the greenfield development of a new SEC filing
+          application hosted within AWS.`,
+        },
+        {
+          id: 2,
+          text: `Implemented microservice architecture into a new application using different
+          technologies within the AWS ecosystem`,
+        },
+        {
+          id: 3,
+          text: `Implemented Jenkins into CI/CD pipeline through AWS Cloud Formation,
+          allowing for the on-demand creation of new environments`,
+        },
+      ],
     },
     {
       id: 3,
-      link: "/",
-      title: "DONNELLEY FINANCIAL SOLUTIONS",
-      date: "Jan 2018 - Nov 2019",
-      subtitle: "Senior Software Engineer - Chicago, IL",
+      title: " CSG",
+      date: "JUN 2010 - May 2017",
+      subtitle: "Senior Software Engineer",
+      list: [
+        {
+          id: 1,
+          text: `Developed enterprise-level billing and content monetization platform using
+          C#, .NET, SQL Server, and Elasticsearch.`,
+        },
+        {
+          id: 2,
+          text: `Developed CRM/Catalog application using .NET MVC, Javascript, and HTML`,
+        },
+        {
+          id: 3,
+          text: `Responsible for delivery of full-stack features, including initial feature design,
+          integration with internal and external systems, and presentation of the
+          execution plan to an agile team`,
+        },
+        {
+          id: 4,
+          text: `Focused on applying SOLID principles to engineer adaptable code`,
+        },
+        {
+          id: 5,
+          text: `Performed hybrid Scrum Master / Lead Developer role, leading full-stack agile
+          teams of 10-15.`,
+        },
+      ],
     },
   ],
   education: [
