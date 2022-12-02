@@ -47,9 +47,9 @@ const InfoSection = ({
             "bg-green-700 flex flex-wrap gap-x-8 z-20",
             listClassName,
             {
-              "-ml-[var(--app-space)] px-[var(--app-space)]":
+              "-ml-[var(--app-space)] px-[var(--app-space)] md:ml-0":
                 listPosition === "left",
-              "-mr-[var(--app-space)] px-[4.9375rem] lg:px-12 2md:px-10":
+              "-mr-[var(--app-space)] md:mr-0 px-[4.9375rem] lg:px-12 2md:px-10":
                 listPosition === "right",
               "px-[4.9375rem] lg:px-12 2md:px-10": listPosition === "center",
             }

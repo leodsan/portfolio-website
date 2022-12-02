@@ -54,14 +54,14 @@ const Introduction = () => {
   }, []);
 
   return (
-    <section className="relative flex justify-center before:-z-50 bg-green-900 before:shadow-box before:absolute before:content-[''] before:w-full before:h-1/2 before:bottom-0 before:left-0 after:content-[''] after:absolute after:z-10 after:-top-[20%] after:h-[100%] lg:after:h-[70%]  xs:after:h-[55%] after:w-[29%] after:max-w-[25rem] lg:after:w-[35%] md:after:w-[45%]  after:bg-green-700">
+    <section className="relative flex justify-center before:-z-50 bg-green-900 before:shadow-box before:absolute before:content-[''] before:w-full before:h-1/2 before:bottom-0 before:left-0 after:content-[''] after:absolute after:z-10 after:top-0 after:h-[80%] lg:after:h-[55%]  xs:after:h-[40%] after:w-[29%] after:max-w-[25rem] lg:after:w-[35%] md:after:w-[45%]  after:bg-green-700">
       <img
         className="absolute top-0 left-0 sm:w-1/4"
         src="/media/pattern-1.svg"
         alt="pattern"
       />
       <img
-        className="absolute -top-[15%] right-0 sm:w-1/2"
+        className="absolute top-0 right-0 sm:w-1/2"
         src="/media/pattern-2.svg"
         alt="pattern"
       />
@@ -90,7 +90,7 @@ const Introduction = () => {
                       target
                       type="a"
                       className="xs:w-full justify-center"
-                      titleClassName="tp-h4 xl:tp-h5 md:tp-h6"
+                      titleClassName="tp-h4 xl:tp-h5 md:tp-h6 !normal-case"
                     />
                   ) : (
                     <span key={id}>{title}</span>

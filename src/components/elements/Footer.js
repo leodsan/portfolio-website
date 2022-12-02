@@ -29,7 +29,7 @@ const Footer = () => {
             Leonardo`}
           </span>
           <span className="absolute tp-h4 md:text-[3vw] left-[70%] md:!leading-tight top-[33%] whitespace-pre-line text-right normal-case">
-            {`let’s talk about 
+            {`Let’s talk about 
             your project`}
           </span>
         </Link>
@@ -40,7 +40,7 @@ const Footer = () => {
             type="a"
             title={email}
             href={`mailto:${email}`}
-            titleClassName="tp-h5 xs:tp-h6"
+            titleClassName="tp-h5 xs:tp-h6 !normal-case"
             className="md:w-full md:order-3"
           />
           <SocialMedias />

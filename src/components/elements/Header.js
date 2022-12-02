@@ -19,30 +19,16 @@ const Header = () => {
       duration: 1,
       opacity: 1,
       ease: "power3.inOut",
-      stagger: {
-        each: 0.1,
-        from: "center",
-      },
+      stagger: 0.2,
     });
   }, []);
 
   return (
     <header
       id="header"
-      className="app-container !fixed left-0 right-0 top-0 z-50 flex items-center justify-center py-4 my-4 sm:py-5 overflow-hidden"
+      className="app-container !fixed left-0 right-0 top-0 z-50 flex items-center justify-between py-6 bg-green-900 sm:py-3 overflow-hidden"
     >
-      <nav className="flex items-center gap-x-10 gap-y-2 mr-auto">
-        {routes.map(({ id, title, href }) => (
-          <Button
-            key={id}
-            href={href}
-            type="link"
-            title={title}
-            titleClassName="font-caption"
-          />
-        ))}
-      </nav>
-      <span className="tp-h2 !leading-5 whitespace-pre-line uppercase text-center sm:tp-h3 xs:tp-h5 absolute">
+      <span className="tp-h2 !leading-5 whitespace-pre-line uppercase text-center sm:tp-h3 xs:tp-h5">
         {`leonardo 
         santiago`}
       </span>
