@@ -1,5 +1,5 @@
 const GLOBAL_CONST = {
-  email: "helloleonardosantiago@gmail.com",
+  email: "leodsantiago209@gmail.com",
   socialMedias: [
     {
       id: 0,
