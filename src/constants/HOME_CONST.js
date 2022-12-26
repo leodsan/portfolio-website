@@ -11,8 +11,8 @@ const HOME_CONST = {
       },
       {
         id: 2,
-        title: "helloleonardosantiago@gmail.com",
-        link: "mailto:helloleonardosantiago@gmail.com",
+        title: "leodsantiago209@gmail.com",
+        link: "mailto:leodsantiago209@gmail.com",
       },
     ],
     biography:
