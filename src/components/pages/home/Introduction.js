@@ -7,8 +7,8 @@ const Introduction = () => {
     biography,
     title,
     subtitle,
-    yearsOfExperiance,
-    projecsDone,
+    yearsOfExperience,
+    projectsDone,
   } = HOME_CONST.introductionInfo;
 
   return (
@@ -65,7 +65,7 @@ const Introduction = () => {
               <span className="tp-h7 text-text-2 font-caption">
                 years of experience
               </span>
-              <span>{yearsOfExperiance}</span>
+              <span>{yearsOfExperience}</span>
             </div>
             <div className="flex flex-col gap-5">
               <span className="tp-h7 text-text-2 font-caption">
