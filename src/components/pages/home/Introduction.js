@@ -63,15 +63,15 @@ const Introduction = () => {
           <div className="flex flex-col text-right xs:text-left tp-display3 xl:tp-display4 md:tp-display5 sm:gap-y-8">
             <div className="flex flex-col gap-5 basis-52 xs:basis-0">
               <span className="tp-h7 text-text-2 font-caption">
-                years of experiance
+                years of experience
               </span>
               <span>{yearsOfExperiance}</span>
             </div>
             <div className="flex flex-col gap-5">
               <span className="tp-h7 text-text-2 font-caption">
-                projecs done
+                projects done
               </span>
-              <span>{projecsDone}</span>
+              <span>{projectsDone}</span>
             </div>
           </div>
         </div>
