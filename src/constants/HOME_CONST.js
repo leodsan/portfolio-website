@@ -53,7 +53,7 @@ const HOME_CONST = {
     },
     {
       id: 8,
-      title: "MySSQL",
+      title: "MSSQL",
     },
     {
       id: 9,
