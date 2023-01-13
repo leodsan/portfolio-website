@@ -16,7 +16,7 @@ const HOME_CONST = {
       },
     ],
     biography:
-      "A highly disciplined and autodidactic software engineer with excellent communication skills and many years of industry experience.",
+      "Senior Software Engineer with a proven track record of delivering high-quality software solutions.",
     title: "leonardo santiago",
     subtitle: "senior software engineer",
     yearsOfExperience: "10+",
